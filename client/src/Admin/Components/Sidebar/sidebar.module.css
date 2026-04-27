@@ -1,0 +1,70 @@
+.sidebar {
+  width: 260px;
+  background: #2c1b47;
+  color: white;
+  padding: 30px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  /* important */
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #b9a9d6;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  font-size: 14px;
+}
+
+.link:hover {
+  background: #3d2566;
+}
+
+.active {
+  background: #4c2f80;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.logoutSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  background: #3d2566;
+}
+
+.logoutSection:hover {
+  background: #532e87;
+}

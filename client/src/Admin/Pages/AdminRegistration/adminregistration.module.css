@@ -1,0 +1,128 @@
+.page {
+  min-height: 100vh;
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+}
+
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.button {
+  background: #2b123f;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: #2b123f;
+}
+
+.cancelBtn {
+  margin-left: 10px;
+  background: #9ca3af;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.table thead {
+  background: #2b123f;
+  color: white;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.table th {
+  font-weight: 600;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.table tbody tr:hover {
+  background: #eef2ff;
+}
+
+
+.editBtn {
+  background: #9ca1de;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+.editBtn:hover {
+  background: #16a34a;
+}
+
+.deleteBtn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.deleteBtn:hover {
+  background: #dc2626;
+}

@@ -1,0 +1,119 @@
+.page {
+  min-height: 100vh;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #301b3f;
+  margin-bottom: 30px;
+}
+
+.complaintList {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complaintTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #301b3f;
+}
+
+.statusPending {
+  background-color: #f0ad4e;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.statusReplied {
+  background-color: #5cb85c;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.complaintContent {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.userId {
+  font-size: 14px;
+  color: #777;
+}
+
+.replySection {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #301b3f;
+}
+
+.button {
+  background-color: #301b3f;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #4a2b5f;
+}
+
+.adminReply {
+  background-color: #f7f7f7;
+  border-left: 4px solid #301b3f;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 10px;
+}
