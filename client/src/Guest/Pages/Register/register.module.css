@@ -1,0 +1,61 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8e1ed 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  width: 400px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #301B3F;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.fileWrapper {
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+}
+.fileLabel {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #301B3F;
+}
+.fileInput {
+  border: 1px solid #ccc;
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.MuiTextField-root {
+  margin-bottom: 14px;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #301B3F;
+}
+.MuiInputLabel-root.Mui-focused {
+  color: #301B3F;
+}

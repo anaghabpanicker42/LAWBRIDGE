@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #301B3F;
+}
+
+.formGroup textarea {
+  resize: none;
+  height: 100px;
+}
+
+.submitBtn {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #301B3F;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitBtn:hover {
+  background-color: #301B3F;
+}
+
+.feeLink {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  color: #d81b60;
+  transition: 0.3s;
+}
+
+.feeLink:hover {
+  color: #880e4f;
+}
